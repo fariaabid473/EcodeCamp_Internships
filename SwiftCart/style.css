@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 1);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  word-spacing: 10px;
+  padding: 20px;
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-right: 10px;}
+  #search-btn{
+    margin-right: 5%;
+  }
+  #account{
+    margin-right: 3%;
+  }
+
+  
+/*hero*/
+#hero{
+   background-color: #F3F3F3;
+   padding: 5%;
+ /*   background-color:#F0F1F3;
+ background: #241F1E;
+
+ 
+ background-color: #201C1B;
+ background-color: #302A29;*/
+}
+#hero-text{
+  margin-top: 3%;
+  margin-left: 5%;
+}
+#hero-text h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-weight: 600;
+
+   
+}
+#hero-text p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    padding-top: 2%;
+   }
+   #hero-btn{
+    padding: 1%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+   
+    font-weight: 600;
+    margin-top: 2%;
+   }
+#hero-img img{
+   margin-left: 25%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+   
+}
+/*featured*/
+#Featured{
+    margin-top: 2%;
+    padding: 5%;
+}
+#Featured h3{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
+.feature-bg-color{
+    background-color: #F0F1F3;
+    padding: 1%;
+    height: 30vh;
+}
+.card-img-top {
+    aspect-ratio: 16 / 9;/* Adjust the height based on your need */
+    object-fit: contain;
+    width: 100%;    /* Ensure the image takes the full width of the card */
+  }
+ .featured-text h5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.2rem;
+    font-weight: 500;
+    padding-top: 2%;
+    }
+    .featured-text p{
+        font-family: "Open Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    }
+    .star-rating i {
+        font-size: 20px;  /* Adjust star size */
+        margin-right: 5px;  /* Space between stars */
+      }
+/*feature-end*/
+/*seasonal*/
+#seasonal{
+    background-color: #f0f0f0;
+    
+}
+#seasonal-text{
+    margin-top: 3%;
+    margin-left: 5%;
+}
+#seasonal-text h1{
+  font-family: "Roboto", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-top: 5%;
+    color: #333333;
+    
+}
+#seasonal-text p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.8rem;
+    margin-top: 3%;
+}
+#seasonal-btn{
+  padding: 1%;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 2%;
+  margin-top: 4%;
+}
+#seasonal-img img{
+  margin-bottom: 15%;
+  margin-left: 15%;
+
+
+}
+/*product*/
+.product{
+  padding: 1%;
+}
+.product h1{
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.product-img{
+  
+    background-color: #F0F1F3;
+    height: 20vh;
+}
+.product-text h3{
+  font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+   
+    padding-top: 2%;
+}
+.product-text p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.product-btn{
+  padding: 1.8%;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  text-align: center;
+}
+.transition-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.transition-card:hover {
+  transform: scale(1.09); /* Increase the card size on hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.8); /* Make shadow bigger on hover */
+}
+ 
+/*mewsletter*/
+#form{
+    background-color: #f3f3f3;
+   padding: 5%;
+  
+  }
+  #form h1{
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+  }
+  
+  #form-input{
+    padding-left: 8%;
+
+  }
+  #form-text{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  #form-text h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 4rem;
+   
+  }
+#form-text p{
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+  input[type=text],
+  input[type=email],
+  input[type=password]{
+    width: 90%;
+    border-radius: 10px;
+    padding: 3%;
+    background: transparent;
+    font-size: 2rem;
+    border: 1px solid grey;
+  }
+  input[type=text]::placeholder{
+    color: black;
+  }
+  input[type=email]::placeholder{
+    color: black;
+  }
+  input[type=password]::placeholder{
+    color: black;
+  }
+  input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+    border-color: #F8F9FA; /* Change border color on hover */
+}
+#message{
+  width: 95%;
+  border-radius: 5px;
+  margin-top: 2%;
+  background: transparent;
+  color: black;
+  border: 1px solid grey;
+  font-size: 1.5rem;
+}
+#message::placeholder{
+  color: black;
+}
+#button{
+  background-color: white;
+  color: #BF8C6F;
+  width: 95%;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 2%;
+  padding: 18px;
+  font-size: 30px;
+  border: none;
+}
+/*footer*/
+footer {
+    background-color: black;
+  }
+  #footer-about h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  #footer-about p{
+    font-size: 1rem;
+  font-weight: 200;
+  text-align: left;
+  margin-top: 5%;
+  margin-bottom: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  }
+  
+  footer a {
+    color: #f1f1f1;
+  }
+  
+  footer a:hover {
+    color: #ffc107;
+    text-decoration: none;
+  }
+  #copyright{
+    font-family: "Montserrat", sans-serif;   
+}
+  
