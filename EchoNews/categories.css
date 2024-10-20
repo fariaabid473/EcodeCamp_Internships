@@ -1,0 +1,146 @@
+/*categories*/
+#categories{
+    background-color: rgba(0, 0, 0, 1);
+    height: 30vh;
+}
+#categories-text h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    margin-top: 5%;
+    animation: zoomIn 1s ease-in-out;
+}
+#categories-text p{
+    font-size: 1.5rem;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 30%;
+    margin-top: 1%;
+    color: white;
+}
+/*global*/
+#global{
+    padding: 5%;
+}
+#global-img{
+    margin-left: 12%;
+    margin-top: 2%;
+    animation: zoomIn 1.9s ease-in-out;
+  }
+  #global-text h3{
+      font-size: 3.5rem;
+      font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+      margin-top: 5%;
+      margin-left: 10%;
+      animation: zoomIn 1.5s ease-in-out;
+    }
+  #global-text p{
+      font-size: 1.5rem;
+      
+      font-family: "Open Sans", sans-serif;
+      margin-left: 10%;
+      margin-top: 3%;
+      animation: zoomIn 1.9s ease-in-out;
+  }
+  /*business*/
+  #business{
+      background: #F9F9F9;
+      padding: 5%;
+  }
+  #business-text h1{
+      font-size: 3rem;
+      font-weight: 800;
+      font-family: "Montserrat", sans-serif;
+      margin-left: 5%;
+  }
+  #business-text p{
+      font-size: 1.5rem;
+      font-family: "Open Sans", sans-serif;
+      margin-left: 5%;
+      margin-top: 5%;
+  }
+  #business-img{
+    margin-left: 5%;
+    margin-top: 2%;
+    animation: zoomIn 1.9s ease-in-out;
+  }
+  /*politics*/
+  #politics{
+    padding: 5%;
+  }
+  #politics-text h1{
+      font-size: 3rem;
+      font-weight: 800;
+      font-family: "Montserrat", sans-serif;
+      margin-left: 10%;
+  }
+  #politics-text p{
+      font-size: 1.5rem;
+      font-family: "Open Sans", sans-serif;
+      margin-left: 10%;
+      margin-top: 5%;
+  }
+  #politics-img{
+    padding-left: 10%;
+  }
+  /*sports*/
+  #sports{
+      background: #F9F9F9;
+      padding: 5%;
+  }
+  #sport-text h1{
+      font-size: 3rem;
+      font-weight: 800;
+      font-family: "Montserrat", sans-serif;
+      margin-left: 10%;
+  }
+  #sport-text p{
+      font-size: 1.5rem;
+      font-family: "Open Sans", sans-serif;
+      margin-left: 10%;
+      margin-top: 5%;
+  }
+  #sports-img {
+    padding-left: 10%;
+    padding-top: 3%;
+  }
+  /*technology*/
+  #technology-text h1{
+      font-size: 3rem;
+      font-weight: 800;
+      font-family: "Montserrat", sans-serif;
+      margin-left: 10%;
+  }
+  #technology-text p{
+      font-size: 1.5rem;
+      font-family: "Open Sans", sans-serif;
+      margin-left: 10%;
+      margin-top: 5%;
+  }
+  #technology{
+    padding: 5%;
+  }
+  /*entertainment*/
+  #entertainment{
+      background: #F9F9F9;
+      padding: 5%;
+  }
+  #entertainment-text h1{
+      font-size: 3rem;
+      font-weight: 800;
+      font-family: "Montserrat", sans-serif;
+      margin-left: 10%;
+  }
+  #entertainment-text p{
+      font-size: 1.5rem;
+      font-family: "Open Sans", sans-serif;
+      margin-left: 10%;
+      margin-top: 5%;
+  }
+  #entertainment-img{
+    margin-top: 3%;
+    padding-left: 5%;
+    
+  }
